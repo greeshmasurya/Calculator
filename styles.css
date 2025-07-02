@@ -1,0 +1,101 @@
+body {
+  background-color: #a4cae4;
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  height: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+.box {
+  padding: 1.5em;
+  align-items: center;
+  height: 1em;
+  width: 1em;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin: 3px;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+.ac {
+  background-color: red;
+  width: 5.6em;
+  border: 2px solid black;
+}
+
+.box:hover {
+  background-color: #f0f0f0;
+  color: black;
+  border: 1px solid black;
+}
+
+.header {
+  font-family: "sans-serif", Times, serif;
+  padding: 0;
+  margin: 0;
+  border: 2px solid black;
+  background-color: rgb(245, 244, 152);
+  border-radius: 10px;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  margin-bottom: 5px;
+}
+
+.container {
+  background-color: rgb(247, 186, 196);
+  border-radius: 10px;
+  padding: 30px;
+  border: 2px solid black;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.equality {
+  background-color: greenyellow;
+  color: black;
+}
+
+.display {
+  font-size: 2em;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: black;
+  background-color: rgb(165, 231, 198);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#keybox {
+  border: 1px solid black;
+  background-color: sandybrown;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+}
+
+#div,
+#mult,
+#addn,
+#sub {
+  background-color: crimson;
+}
+
+#sh {
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+}
+
+#div:hover,
+#mult:hover,
+#addn:hover,
+#sub:hover {
+  background-color: rgb(252, 47, 252);
+}
